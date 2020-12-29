@@ -1,0 +1,18 @@
+ul {
+    text-align: justify;
+}
+
+li {
+    list-style: none;
+    padding: .1em 0;
+    border-bottom: gray dotted .1em;
+}
+
+li:hover {
+    list-style: disc;
+    cursor: pointer;
+}
+
+li.marcado {
+    text-decoration: line-through;
+}
